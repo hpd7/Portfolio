@@ -1,0 +1,20 @@
+<!doctype HTML>
+<html>
+<script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/master/dist/aframe-extras.loaders.min.js"></script> 
+  <body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+  <a-assets>
+    <a-asset-item id="c-obj" src="https://raw.githubusercontent.com/hpd7/hpd_01_webAR/master/model_New%20Qlone.obj"></a-asset-item>
+    <a-asset-item id="c-mtl" src="https://raw.githubusercontent.com/hpd7/hpd_01_webAR/master/materials.mtl"></a-asset-item>
+  </a-assets>
+    
+      <a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/hpd7/hpd_01_webAR/master/pattern-bcode-logo-clean-BW-grey.patt'>
+           <a-entity obj-model="obj: #c-obj; mtl: #c-mtl"></a-entity>
+      </a-marker>
+      <a-entity camera></a-entity>
+      
+    </a-scene>
+  </body>
+</html>
