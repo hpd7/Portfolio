@@ -6,12 +6,11 @@
   <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
   <a-assets>
-    <a-asset-item id="c-obj" src="https://raw.githubusercontent.com/hpd7/hpd_01_webAR/master/model_New%20Qlone.obj"></a-asset-item>
-    <a-asset-item id="c-mtl" src="https://raw.githubusercontent.com/hpd7/hpd_01_webAR/master/materials.mtl"></a-asset-item>
+    <a-asset-item id="body" src="https://github.com/hpd7/Portfolio2019/blob/master/Looking.fbx"></a-asset-item>
   </a-assets>
     
       <a-marker preset='custom' type='pattern' url='https://raw.githubusercontent.com/hpd7/Portfolio2019/master/pattern-barcode.patt'>
-           <a-entity obj-model="obj: #c-obj; mtl: #c-mtl"></a-entity>
+           <a-entity fbx-model="#body" animation-mixer></a-entity>
            </a-marker>
       <a-entity camera></a-entity>
       
