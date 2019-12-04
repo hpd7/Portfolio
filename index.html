@@ -1,38 +1,37 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - port</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
-</head>
-
-<body>
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#">H P D</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse"
-                id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="AR.html">AR</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <main class="page lanidng-page">
-        <section class="portfolio-block block-intro">
-            <div class="container">
-                
-                    <p>Sorry! <strong></strong> the website is temporarily down due to technical difficulties. Please visit again soon. Thank you. </p><a class="btn btn-outline-primary" role="button" href="#"></a></div>
-          
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
-    <script src="assets/js/theme.js"></script>
-</body>
-
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HPD | Portfolio</title>
+		<meta name="description" content="Portfolio Hemantha P D" />
+		<meta name="keywords" content="3d model, three.js, portfolio, interactive, website, web development" />
+		<meta name="author" content="PD" />
+		<link rel="shortcut icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body>
+		<div class="loading" id="js-loader">
+			<div class="loader"></div>
+		</div>
+		<div class="wrapper">
+		    <!-- The canvas element is used to draw the 3D scene -->
+			<canvas id="c"></canvas>
+		</div>
+		<div class="frame">
+			<h1 class="frame__title"><a href="http://h-p-d.com"><img src="https://raw.githubusercontent.com/hpd7/website/master/black-01.png" alt="hpdimage" width="75" height="75"></a></h1>
+			<div class="frame__links">
+				<a href="http://h-p-d.com/works.html"><font color="black">Works</font></a>
+				<a href="https://h-p-d.com/aboutme.html"><font color="black">About me</font></a>
+			</div>
+		</div>
+		<span class="action">.</span>
+		<!-- The main Three.js file -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
+		<!-- This brings in the ability to load custom 3D objects in the .gltf file format. Blender allows the ability to export to this format out the box -->
+		<script src='https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js'></script>
+		<!-- partial -->
+		<script  src="js/script.js"></script>
+	</body>
 </html>
