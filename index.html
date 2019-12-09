@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>HPD | Portfolio </title>
+		<meta name="description" content="Digital design portfolio website" />
+		<meta name="keywords" content="3d model, three.js, interactive, website, digital design, product design, UI/UX, industrial design, web development" />
+		<meta name="author" content="HPD" />
+		<link rel="shortcut icon" href="media/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this website in a modern browser that supports CSS Variables.");</script>
+	</head>
+	<body>
+		<div class="loading" id="js-loader">
+			<div class="loader"></div>
+			<div><font size="2">So, untill it loads. My intrests are XR, Tech, EV, DIY, Travel, Farming, Movies.</font></div>
+		</div>
+		<div class="wrapper">
+		    <!-- The canvas element is used to draw the 3D scene -->
+			<canvas id="c"></canvas>
+		</div>
+		<div class="frame">
+			<h1 class="frame__title"><a href="http://h-p-d.com"><img src="media/logo_hpd.png" alt="HPD" width="60" height="60"></a></h1>
+			<div class="frame__links">
+				<a href="http://h-p-d.com/work.html">Work</a>
+				<a href="https://h-p-d.com/aboutme.html">About me</a>
+			</div>
+		</div>
+	<button>
+		<span class="action"><h3>I am Hemantha P D</h3><p>Digital Designer</p><p>Looking for internship</p></span>
+    <span class="taction"><h3>I am Hemantha Pandrahally Dinesh</h3><p>#IndustrialDesigner#CGartist#Tinkerer#Maker</p><p>Still looking for internship</p></span>
+</button>
+		<!-- The main Three.js file -->
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/108/three.min.js'></script>
+		<!-- This brings in the ability to load custom 3D objects in the .gltf file format. Blender allows the ability to export to this format out the box -->
+		<script src='https://cdn.jsdelivr.net/gh/mrdoob/Three.js@r92/examples/js/loaders/GLTFLoader.js'></script>
+		<!-- partial -->
+		<script  src="js/script.js"></script>
+	</body>
+</html>
