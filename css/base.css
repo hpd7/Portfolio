@@ -69,6 +69,7 @@ body {
     width: 98%;
     align-items: center;
     text-align: center;
+    font-size: 1rem;
     justify-content: center;
     color: #000000;
     z-index: 10; 
@@ -79,6 +80,7 @@ body {
     width: 98%;
     align-items: center;
     text-align: center;
+    font-size: 1rem;
     justify-content: center;
     color: #000000;
     z-index: 10; 
