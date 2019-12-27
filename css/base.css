@@ -129,6 +129,18 @@ button:hover .taction { display: inline; }
     align-items: center;
 }
 
+.loadert {
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    width: 200px;
+    height:200px;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
 .loader {
     -webkit-perspective: 120px;
     -moz-perspective: 120px;
