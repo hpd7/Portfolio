@@ -68,7 +68,7 @@ body {
 .action {
     position: absolute;
     bottom: 4rem;
-    width: 98%;
+    width: 70%;
     align-items: center;
     text-align: center;
     font-size: 1rem;
@@ -79,7 +79,7 @@ body {
 .taction {
     position: absolute;
     bottom: 4rem;
-    width: 98%;
+    width: 70%;
     align-items: center;
     text-align: center;
     font-size: 1rem;
@@ -90,6 +90,7 @@ body {
 
 .button {
   border: none;
+  align-items: center;
   text-align: center;
   text-decoration: none;
   display: inline-block;
