@@ -131,8 +131,6 @@ button:hover .taction { display: inline; }
 }
 
 .loadert {
-    width: 70%;
-    height: 70%;
     left: 50%;
     top: 50%;
     font-size: 0.9rem;
