@@ -139,7 +139,7 @@ button:hover .taction { display: inline; }
     text-align: center;
     justify-content: center;
     color: #000000;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, 20%);
 }
 
 .loader {
