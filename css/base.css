@@ -134,14 +134,14 @@ button:hover .taction { display: inline; }
     width: 70%;
     height: 70%;
     left: 50%;
-    bottom: 35%;
+    top: 50%;
     font-size: 0.9rem;
     position: absolute;
     align-items: center;
     text-align: center;
     justify-content: center;
     color: #000000;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, 10%);
 }
 
 .loader {
