@@ -14,9 +14,34 @@ html {
     box-sizing: border-box;
 }
 
+@font-face {
+  font-family: 'NexaLight';
+  src: url('font/NexaLight.eot');
+  src: url('font/NexaLight.eot?#iefix') format('embedded-opentype'),
+       url('font/NexaLight.svg#NexaLight') format('svg'),
+       url('font/NexaLight.ttf') format('truetype'),
+       url('font/NexaLight.woff') format('woff'),
+       url('font/NexaLight.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NexaBold';
+  src: url('font/NexaBold.eot');
+  src: url('font/NexaBold.eot?#iefix') format('embedded-opentype'),
+       url('font/NexaBold.svg#NexaBold') format('svg'),
+       url('font/NexaBold.ttf') format('truetype'),
+       url('font/NexaBold.woff') format('woff'),
+       url('font/NexaBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
 body {
     position: relative;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif;
+    font-family: Nexalight, NexaBold;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
@@ -139,7 +164,7 @@ button:hover .taction { display: inline; }
     text-align: center;
     justify-content: center;
     color: #000000;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 30%);
 }
 
 .loader {
