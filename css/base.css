@@ -41,7 +41,7 @@ html {
 
 body {
     position: relative;
-    font-family: Nexalight, NexaBold;
+    font-family: 'Nexalight', 'NexaBold', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
@@ -68,7 +68,7 @@ body {
     font-size: 1rem;
     margin: 0 1.5rem 0.5rem 0;
     display: inline-block;
-    font-weight: 500;
+    font-weight: normal;
 }
 
 .frame__links {
