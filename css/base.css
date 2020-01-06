@@ -41,7 +41,7 @@ html {
 
 body {
     position: relative;
-    font-family: 'Nexalight', 'NexaBold', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,NexaLight,NexaBold,sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     width: 100%;
