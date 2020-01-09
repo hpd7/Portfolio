@@ -14,30 +14,7 @@ html {
     box-sizing: border-box;
 }
 
-@font-face {
-  font-family: 'NexaLight';
-  src: url('font/NexaLight.eot');
-  src: url('font/NexaLight.eot?#iefix') format('embedded-opentype'),
-       url('font/NexaLight.svg#NexaLight') format('svg'),
-       url('font/NexaLight.ttf') format('truetype'),
-       url('font/NexaLight.woff') format('woff'),
-       url('font/NexaLight.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'NexaBold';
-  src: url('font/NexaBold.eot');
-  src: url('font/NexaBold.eot?#iefix') format('embedded-opentype'),
-       url('font/NexaBold.svg#NexaBold') format('svg'),
-       url('font/NexaBold.ttf') format('truetype'),
-       url('font/NexaBold.woff') format('woff'),
-       url('font/NexaBold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
-
+@font-face{font-family:NexaBold;src:url(../../assets/fonts/NexaBold.eot) format('embedded-opentype'),url(../../assets/fonts/NexaBold.eot) format('embedded-opentype'),url(../../assets/fonts/NexaBold.svg) format('svg'),url(../../assets/fonts/NexaBold.ttf) format('truetype'),url(../../assets/fonts/NexaBold.woff) format('woff'),url(../../assets/fonts/NexaBold.woff2) format('woff2');font-weight:400;font-style:normal}@font-face{font-family:NexaLight;src:url(../../assets/fonts/NexaLight.eot) format('embedded-opentype'),url(../../assets/fonts/NexaLight.eot) format('embedded-opentype'),url(../../assets/fonts/NexaLight.svg) format('svg'),url(../../assets/fonts/NexaLight.ttf) format('truetype'),url(../../assets/fonts/NexaLight.woff) format('woff'),url(../../assets/fonts/NexaLight.woff2) format('woff2');font-weight: 400;font-style: normal;}
 
 body {
     position: relative;
