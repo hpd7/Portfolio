@@ -1,7 +1,7 @@
 # Portfolio2020
 Personal digital design portfolio and webAR experiments. www.h-p-d.com
 
-Firstly a huge thank you to all the people making awesome stuff open source, sharing their projects and making free tutorials.
+Firstly a huge thank you to all the people making awesome tools open source, sharing projects and making free tutorials.
 
 <h3>Few that inspired me and helped me to do the above project are below:</h3>
 
